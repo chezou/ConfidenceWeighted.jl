@@ -1,5 +1,7 @@
 module ConfidenceWeighted
 
-# package code goes here
+export SoftConfidenceWeighted
+
+include("SoftConfidenceWeighted.jl")
 
 end # module

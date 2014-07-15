@@ -1,5 +1,7 @@
-using SoftConfidenceWeighted
+using ConfidenceWeighted
 using Base.Test
+
+using .SoftConfidenceWeighted
 
 scw = SCWParameter(1.0, 1.0)
 
